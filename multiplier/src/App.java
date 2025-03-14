@@ -9,9 +9,9 @@ public class App {
         Scanner sc = new Scanner(System.in);
         int val = sc.nextInt();
 
-        if (val >= -2147483648 && val <=2147483647)
+        if (val >= -214748364 && val <=214748364)
         {
-            for (int i =1; i <= 9; i++) 
+            for (int i =1; i <= 10; i++) 
             {
                 System.out.println(val + " x " + i + " = " + val * i);
             }
