@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         
-        System.out.println("Input number betwen 2147483647 and -2147483648\nto get multiplier table");
+        System.out.println("Input number betwen 214748364 and -214748364\nto get multiplier table");
 
         Scanner sc = new Scanner(System.in);
         int val = sc.nextInt();
